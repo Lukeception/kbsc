@@ -1,0 +1,65 @@
+[
+  {
+    "description": "Reverts last action.",
+    "id": "sivfxl9kksf48s9",
+    "key": "cmd+z",
+    "os": "MacOS",
+    "related": [
+      "p26stv7ciatrvme"
+    ],
+    "search_terms": "revert, delete, mistake, go back, reverse",
+    "title": "Undo",
+    "where": "universal"
+  },
+  {
+    "description": "Redo the last action. Only works after having used \"Undo\".",
+    "id": "p26stv7ciatrvme",
+    "key": "cmd+shift+z",
+    "os": "MacOS",
+    "related": [
+      "sivfxl9kksf48s9"
+    ],
+    "search_terms": "revert, restore, mistake",
+    "title": "Redo",
+    "where": "universal"
+  },
+  {
+    "description": "Enters a search mode in most programs.",
+    "id": "9h2cptix7uajagy",
+    "key": "cmd+f",
+    "os": "MacOS",
+    "related": [
+      "5ap9sva64q6hjhw",
+      "eurcqrpwerj6erz"
+    ],
+    "search_terms": "find",
+    "title": "Search",
+    "where": "universal"
+  },
+  {
+    "description": "Shows the next search result. Only works in search mode.",
+    "id": "5ap9sva64q6hjhw",
+    "key": "cmd+g",
+    "os": "MacOS",
+    "related": [
+      "9h2cptix7uajagy",
+      "eurcqrpwerj6erz"
+    ],
+    "search_terms": "next, find",
+    "title": "Next Result",
+    "where": "universal"
+  },
+  {
+    "description": "Shows the previous result. Only works in search mode.",
+    "id": "eurcqrpwerj6erz",
+    "key": "cmd+shift+g",
+    "os": "MacOS",
+    "related": [
+      "5ap9sva64q6hjhw",
+      "9h2cptix7uajagy"
+    ],
+    "search_terms": "next, go back, find",
+    "title": "Previous Result",
+    "where": "universal"
+  }
+]

@@ -1,0 +1,12 @@
+.main {
+    min-height: 100vh;
+    max-width: 52rem;
+    margin: 4rem auto;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
