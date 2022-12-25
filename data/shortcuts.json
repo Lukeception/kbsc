@@ -7,7 +7,7 @@
     "related": [
       "p26stv7ciatrvme"
     ],
-    "search_terms": "revert, delete, mistake, go back, reverse",
+    "searchTerms": "revert, delete, mistake, go back, reverse",
     "title": "Undo",
     "where": "universal"
   },
@@ -19,7 +19,7 @@
     "related": [
       "sivfxl9kksf48s9"
     ],
-    "search_terms": "revert, restore, mistake",
+    "searchTerms": "revert, restore, mistake",
     "title": "Redo",
     "where": "universal"
   },
@@ -32,7 +32,7 @@
       "5ap9sva64q6hjhw",
       "eurcqrpwerj6erz"
     ],
-    "search_terms": "find",
+    "searchTerms": "find",
     "title": "Search",
     "where": "universal"
   },
@@ -45,8 +45,8 @@
       "9h2cptix7uajagy",
       "eurcqrpwerj6erz"
     ],
-    "search_terms": "next, find",
-    "title": "Next Result",
+    "searchTerms": "result, continue, skip",
+    "title": "Find Next",
     "where": "universal"
   },
   {
@@ -58,8 +58,101 @@
       "5ap9sva64q6hjhw",
       "9h2cptix7uajagy"
     ],
-    "search_terms": "next, go back, find",
+    "searchTerms": "next, go back, find",
     "title": "Previous Result",
+    "where": "universal"
+  },
+  {
+    "description": "Moves the text cursor to the end of the current line.",
+    "id": "7vn7g0x24jflj35",
+    "key": "cmd+rarr",
+    "os": "MacOS",
+    "related": [
+      "e1wud88r42pwvkl"
+    ],
+    "searchTerms": "movement, navigation",
+    "title": "Jump to End of Line",
+    "where": "textfield"
+  },
+  {
+    "description": "Moves the text cursor to the beginning of the current line.",
+    "id": "e1wud88r42pwvkl",
+    "key": "cmd+larr",
+    "os": "MacOS",
+    "related": [
+      "7vn7g0x24jflj35"
+    ],
+    "searchTerms": "movement, navigation",
+    "title": "Jump to Beginning of Line",
+    "where": "textfield"
+  },
+  {
+    "description": "Opens spotlight search from anywhere to search for programs, files, perform calculations, convert units of measurement and more.",
+    "id": "1c14q14gj2i5k65",
+    "key": "cmd+space",
+    "os": "MacOS",
+    "related": [],
+    "searchTerms": "alfred, search",
+    "title": "Spotlight Search",
+    "where": "universal"
+  },
+  {
+    "description": "Copies the selected text or items into the clipboard.",
+    "id": "zq6d3jzhku9x3yh",
+    "key": "cmd+c",
+    "os": "MacOS",
+    "related": [
+      "7v8mcapgxlfdzan",
+      "ifzi2di3dlf8w03"
+    ],
+    "searchTerms": "duplicate",
+    "title": "Copy",
+    "where": "universal"
+  },
+  {
+    "description": "Pastes the contents of the clipboard.",
+    "id": "7v8mcapgxlfdzan",
+    "key": "cmd+v",
+    "os": "MacOS",
+    "related": [
+      "zq6d3jzhku9x3yh",
+      "ifzi2di3dlf8w03"
+    ],
+    "searchTerms": "insert",
+    "title": "Paste",
+    "where": "universal"
+  },
+  {
+    "description": "Copies the selected text or items into the clipboard and removes them.",
+    "id": "ifzi2di3dlf8w03",
+    "key": "cmd+x",
+    "os": "MacOS",
+    "related": [
+      "zq6d3jzhku9x3yh",
+      "7v8mcapgxlfdzan"
+    ],
+    "searchTerms": "paste",
+    "title": "Cut",
+    "where": "universal"
+  },
+  {
+    "description": "Select all text or items.",
+    "id": "n3hpio2ime5u6v8",
+    "key": "cmd+a",
+    "os": "MacOS",
+    "related": [],
+    "searchTerms": "",
+    "title": "Select All",
+    "where": "universal"
+  },
+  {
+    "description": "Selects the character or item left to the cursor.",
+    "id": "6bhs3mfenj8tu4z",
+    "key": "shift+rarr",
+    "os": "MacOS",
+    "related": [],
+    "searchTerms": "",
+    "title": "Select to right",
     "where": "universal"
   }
 ]

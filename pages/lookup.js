@@ -24,7 +24,6 @@ import { getShortcutData } from '../data/data_helper';
 
 export async function getStaticProps() {
   const shortcuts = getShortcutData();
-  console.log(shortcuts);
   return {props: { shortcuts, }};
 }
 
@@ -35,8 +34,7 @@ export default function Lookup({ shortcuts }) {
   return (
     <Layout>
       <h1 className={styles.title}>Look Up</h1>
-      <SearchKBSC/>
-      <p>{shortcuts[0].key}</p>
+      <SearchKBSC shortcuts={shortcuts}/>
     </Layout>
   );
 }

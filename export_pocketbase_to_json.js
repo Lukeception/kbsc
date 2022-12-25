@@ -1,3 +1,6 @@
+
+// Add "type": "module" to the package.json file, otherwise import statements don't work!
+
 import PocketBase from 'pocketbase';
 import fs from "fs";
 
@@ -16,8 +19,8 @@ console.log(records[0].key);
 
 const recordsString = JSON.stringify(records, null, 2);
 
-/* fs.writeFile("data/shortcuts.json", recordsString, function(err) {
+fs.writeFile("data/shortcuts.json", recordsString, function(err) {
     if (err) {
         console.log(err);
     }
-}); */
+});
